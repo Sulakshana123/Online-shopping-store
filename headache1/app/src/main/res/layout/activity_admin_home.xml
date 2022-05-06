@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/casual1"
+    tools:context=".AdminPanelinterface">
+
+    <TextView
+        android:id="@+id/admin_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Dear Admin"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/maintain_Men_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="Maintain Men Products"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maintain_btn" />
+
+    <Button
+        android:id="@+id/maintain_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="Maintain Women Products"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/maintain_Kids_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="Maintain Kids Products"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maintain_Men_btn" />
+
+
+    <Button
+        android:id="@+id/maintain_accessories_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="Maintain Accessories"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maintain_Kids_btn"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/check_orders_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="Check New  Products orders"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maintain_accessories_btn" />
+
+    <Button
+        android:id="@+id/check_approve_new_orders_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="Check and Approve New  Products"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/check_orders_btn" />
+
+    <Button
+        android:id="@+id/admin_logout_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="@string/logoutbtn"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/check_orders_btn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
